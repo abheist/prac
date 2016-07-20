@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accordian</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <sc-accordion role="tablist">
+        <sc-pane role="tabpanel">
+            <button aria-expanded role="tab">Panel 1</button>
+            <div class="content">
+                This is some content
+            </div>
+        </sc-pane>
+
+        <sc-pane role="tabpanel">
+            <button role="tab">Panel 2</button>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius ullamcorper risus. Aliquam at dignissim ante. Integer commodo lobortis nisl consectetur faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate, massa accumsan
+                    vestibulum luctus, massa eros hendrerit urna, egestas aliquet felis purus id arcu. Maecenas tincidunt lacus ante, at iaculis nisl sodales non. Vestibulum interdum mi ante, vitae consectetur elit iaculis sit amet. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit venenatis justo, dignissim dignissim elit. Etiam finibus euismod justo, vitae eleifend augue rutrum ac. Nam vitae condimentum nibh. Aenean in sagittis
+                    orci, in maximus orci. Cras condimentum tortor eget tempor mattis.
+                </p>
+                <p>Ut dignissim est in urna lobortis, nec eleifend risus blandit. Pellentesque condimentum neque eget vehicula dictum. Phasellus at lorem efficitur, semper eros a, porta ante. Vestibulum non dignissim ligula. Maecenas malesuada mauris ullamcorper
+                    nulla imperdiet fermentum.
+                </p>
+            </div>
+        </sc-pane>
+
+
+        <sc-pane role="tabpanel">
+            <button role="tab">Panel 3</button>
+            <div class="content">
+                This is some more content
+            </div>
+        </sc-pane>
+    </sc-accordion>
+
+    <script src="scripts/sc-accordian.js"></script>
+</body>
+
+</html>
