@@ -1,18 +1,17 @@
 // set one
-var foo = 2 + 3;
-foo = foo + 1;
-foo = foo * 8;
+var foo = doSomething(2, 2);
 
 // set two
-var bar = 3 + 3;
-bar = bar + 1;
-bar = bar * 8;
+var bar = doSomething(3, 2);
 
 // function
-function doSomething(paramOne)  {
+function doSomething(paramOne, paramTwo)  {
     paramOne = paramOne + 3;
     paramOne = paramOne + 1;
     paramOne = paramOne * 8;
 
-    return paramOne;
+    return paramOne * paramTwo;
 }
+
+alert(foo);
+alert(bar);
