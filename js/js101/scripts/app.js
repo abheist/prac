@@ -1,22 +1,18 @@
-var sum = 4 + 5, // 9
-    difference = 4 - 5, // -1
-    multipication = 4 * 5, // 20
-    quotient = 4 / 5, // .8
-    foo = 4 - 5 * (6 - 8),
-    bar = foo + 1,
-    foobar = "Hello" + ", " + "World!",
-    strnum = 4 + 5 + "7"; // Hello, World!
+// set one
+var foo = 2 + 3;
+foo = foo + 1;
+foo = foo * 8;
 
-/*
- * multiline comment
- */
+// set two
+var bar = 3 + 3;
+bar = bar + 1;
+bar = bar * 8;
 
-alert(sum);
-alert(difference);
-alert(foo);
+// function
+function doSomething(paramOne)  {
+    paramOne = paramOne + 3;
+    paramOne = paramOne + 1;
+    paramOne = paramOne * 8;
 
-
-var foo1 = parseInt("34s57", 10), //34
-    foo2 = parseInt("s"); // NaN
-alert(foo1);
-alert(foo2);
+    return paramOne;
+}
